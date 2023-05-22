@@ -1,0 +1,190 @@
+
+
+
+
+/* Reset some default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+menu ul {
+  list-style-type: none;
+}
+
+menu ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Form and Container Styles */
+form {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.p1 {
+  text-align: left;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.submenu {
+  margin-top: 20px;
+}
+
+.submenu a {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+/* Slideshow Styles */
+.hcg-slider {
+  position: relative;
+  overflow: hidden;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hcg-slider .hcg-slide-container {
+  position: relative;
+  width: 100%;
+}
+
+.hcg-slider .hcg-slider-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.hcg-slider .hcg-slider-body .hcg-slides {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hcg-slider .hcg-slider-body .hcg-slides img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.hcg-slider .hcg-slider-body .hcg-slide-number {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.hcg-slider .hcg-slider-body .hcg-slide-text {
+  margin-top: 10px;
+}
+
+.hcg-slider .hcg-slide-dot-control {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.hcg-slider .hcg-slide-dot-control a {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #333;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.hcg-slider .hcg-slide-dot-control a.active {
+  background-color: #fff;
+}
+
+/* Features Section Styles */
+.features {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+
+.features .container {
+  display: flex;
+  justify-content: center;
+}
+
+.features .feature {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.features .feature img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Quote Section Styles */
+.quote {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.quote blockquote {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.quote cite {
+  font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
